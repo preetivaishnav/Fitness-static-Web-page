@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("image.jpg");
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    font-family: 'Lobster', cursive;
+}
+
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    line-height: 25px;
+
+}
+
+.left img{
+    width: 100px;
+    filter: invert(100%);
+    
+}
+
+.left div{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.mid{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+
+}
+
+.navbar li a:hover{
+    background-color: white;
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.right button {
+    margin: 15px, 12px;
+    color: white;
+    background-color: black;
+    padding: 4px, 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    width: 2px auto;
+    
+    
+}
+
+.right button:hover{
+    background-color: white;
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.container {
+    margin: 300px, 200px;
+    padding: 75px;
+    display: block;
+    width: 35%;
+    border-radius: 28px;
+    float: right;
+    text-align: center;
+}
+
+.fillups input {
+    text-align: center;
+    display: block;
+    width: 220px;
+    padding: 8px;
+    border: 2px solid white;
+    margin: 8px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    background-color: white;
+
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    margin: 15px;
+}
+
+.btn{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.container.btn:hover {
+    background-color:white
+    
+    
+    
+}
